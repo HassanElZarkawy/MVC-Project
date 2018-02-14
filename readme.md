@@ -22,7 +22,17 @@ No dependencies and no BS.
 
 ### Development
 
-Want to contribute? Great!
+Getting started:
+things will not work when you deploy your project unless these stuff are filled.
+in config.php:
+```php
+class Config
+{
+    public static $DB_USER = ""; // database user
+    public static $DB_PASS = ""; // database user password
+    public static $DB_NAME = ""; // database name
+}
+```
 
 get your hands dirty.
 
