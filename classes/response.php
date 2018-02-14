@@ -33,11 +33,5 @@ class Response
         echo $data;
         die();
     }
-
-    public function xmlResponse($data) {
-        header ('');
-        echo $data;
-        die();
-    }
 }
 ?>
