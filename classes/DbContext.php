@@ -11,7 +11,7 @@ class DbContext{
     
     private function __construct()
     {        
-         //$this->_pdo = new PDO("mysql:host=localhost;dbname=" . Config::$DB_NAME . ";charset=UTF8", Config::$DB_USER, Config::$DB_PASS);
+         $this->_pdo = new PDO("mysql:host=localhost;dbname=" . Config::$DB_NAME . ";charset=UTF8", Config::$DB_USER, Config::$DB_PASS);
     }
     
     public static function getInstance()
